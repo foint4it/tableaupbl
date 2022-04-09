@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 PORT = 5000
-DEBUG = FALSE
+DEBUG = False
 
 
 @app.route('/')
