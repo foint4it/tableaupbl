@@ -12,11 +12,11 @@ def about_page():
 @app.route('/vis')
 def vis_page():
     items = [
-        {'id': 1, 'name': 'Clientes Banco', 'page': 'clientesbanco_page', 'desc': 'Esse cillum qui reprehenderit fugiat duis anim duis anim cillum est.'},
-        {'id': 2, 'name': 'Salario Promedio', 'page': 'salariopromedio_page', 'desc': 'Pariatur enim incididunt sint Lorem incididunt reprehenderit eu ut.'},
-        {'id': 3, 'name': 'Venta Vehiculos', 'page': 'vehiculosventa_page', 'desc': 'Est ad mollit excepteur proident aute deserunt.'},
-        {'id': 4, 'name': 'Doble Eje', 'page': 'dobleeje_page', 'desc': 'Cupidatat ex officia ipsum proident ad sunt nulla veniam culpa non culpa fugiat adipisicing.'},
-        {'id': 5, 'name': 'Startup Expansion', 'page': 'startupexpansion_page', 'desc': 'Mollit incididunt cupidatat irure eiusmod commodo nulla nisi do culpa dolore sint enim magna commodo.'}
+        {'id': 1, 'name': 'Clientes Banco UK', 'page': 'clientesbanco_page', 'desc': 'Storyline Segmentacion Clientes Banco Regiones UK.'},
+        {'id': 2, 'name': 'Mapa Salario Promedio NY', 'page': 'salariopromedio_page', 'desc': 'Graficos Emergentes mientras se explora mapa de salarios promedios anuales por industria.'},
+        {'id': 3, 'name': 'Ventas Vehiculos Global', 'page': 'vehiculosventa_page', 'desc': 'Ventas de Vehiculos Global por Regiones y Año'},
+        {'id': 4, 'name': 'Graficos Ventas Doble Eje', 'page': 'dobleeje_page', 'desc': 'Ventas Mensuales por Rubro: Objetivos vs Real'},
+        {'id': 5, 'name': 'Expansion Startup Lavanderia', 'page': 'startupexpansion_page', 'desc': 'Expansion de una Lavanderia. Clustering: Agrupamiento de Obs por Variables (Ingreso Medio, Gasto Marketing y Poblacion)'}
     ]
     return render_template('vis.html', items=items)
 
